@@ -1,0 +1,224 @@
+html {
+    height: 100%;
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#438396 70%, lightgrey);
+  }
+
+  body {
+    height: 100%;
+    margin: 0;
+  }
+
+  .maintext {
+    padding-top: 3em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #heading1 {
+    font-size: 30px;
+    font-family: krungthep;
+    text-align: center;
+  }
+
+  #heading2 {
+    font-family: krungthep;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  #logo {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .openbtn {
+    font-size: 42px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .nav {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .showcase {
+    margin-top: 10em;
+  }
+
+  .image {
+    margin-bottom: 4em;
+  }
+
+  .assignments {
+    border-radius: 2px;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #imagetext {
+    color: black;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-style: italic;
+    opacity: 50%;
+    text-decoration: none;
+  }
+
+  footer {
+    padding: 2em;
+    background: white;
+  }
+
+  .footerheader {
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 2em;
+  }
+
+  .footercontainer {
+    padding-bottom: 3em;
+  }
+
+  .aboutbtn {
+    border: 2px solid #231AE0;
+    padding: 10px;
+    float: left;
+    width: 5em;
+    margin-left: 1.5em;
+  }
+
+  #aboutbtn {
+    color: #231AE0;
+    font-size: 15px;
+    text-align: center;
+    font-family: krungthep;
+  }
+
+  .contactbtn {
+    border: 2px solid #231AE0;
+    float: right;
+    padding: 10px;
+    width: 6em;
+    margin-right: 1.5em;
+  }
+
+  #contactbtn {
+    color: #231AE0;
+    font-size: 15px;
+    text-align: center;
+    font-family: krungthep;
+  }
+
+
+@media screen and (min-width: 600px) {
+
+  #logo {
+    width: 10%;
+  }
+
+  .openbtn {
+    font-size: 70px;
+  }
+
+  #heading1 {
+    font-size: 50px;
+  }
+
+  #heading2 {
+    font-size: 40px;
+  }
+
+  .maintext {
+    padding-top: 5em;
+  }
+
+  .image {
+    margin-bottom: 4em;
+    float: left;
+    margin: 1em;
+    padding-bottom: 2em;
+    width: 47%;
+  }
+
+
+  .showcase {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10em;
+  }
+
+  #imagetext {
+    margin-left: 5.2em;
+    font-size: 18px;
+  }
+
+  .footercontainer {
+    margin-left: 33em;
+    margin-right: 33em;
+  }
+
+}
